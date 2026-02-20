@@ -67,7 +67,7 @@ export default new Elysia()
       query: z.object({
         email: z.string(),
         password: z.string(),
-        cvtHost: z.string().default("mxpwrfkgqoys.ap-northeast-1.clawcloudrun.com"),
+        cvtHost: z.string().default("tetvzxfbrkpk.ap-northeast-1.clawcloudrun.com"),
         target: z.optional(z.string()).default("clash"),
         mojieHost: z.optional(z.string()).default("mojie.xn--yrs494l.com"),
         nfsqHost: z.optional(z.string()).default("www.nfsqttt.com"),
